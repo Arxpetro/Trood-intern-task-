@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "./Input";
+import Input from "../inputComponents/Input/Input";
 
 function ForgotPass() {
 	return (
@@ -26,7 +26,7 @@ function ForgotPass() {
 				Enter your email bellow and we’ll get you back on track
 			</p>
 			<form action="" method="get">
-				<Input Title={"Email"}/>
+				<Input title={"Email"} />
 				<input
 					type="submit"
 					value="Recover password"

@@ -1,7 +1,9 @@
 // Password input element for Authorization and Registration blocks
 
 import React, { useState } from "react";
-import EyeImg from "./img/eye.png";
+import EyeImg from "../../img/eye.png";
+
+import "./PasswordInput.css";
 
 function PasswordInput() {
 	const [showPassword, setShowPassword] = useState(false);
@@ -13,11 +15,7 @@ function PasswordInput() {
 	return (
 		<div>
 			<p
-				style={{
-					fontSize: "14px",
-					fontWeight: "500",
-					lineHeight: "20px",
-				}}
+				
 			>
 				Password
 			</p>

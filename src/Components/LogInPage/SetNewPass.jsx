@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "./Input";
+import Input from "../inputComponents/Input/Input";
 
 function SetNewPass() {
 	return (
@@ -11,7 +11,7 @@ function SetNewPass() {
 					lineHeight: "48px",
 					textAlign: "center",
 					marginBottom: "50px",
-                    width: '100%',
+					width: "100%",
 				}}
 			>
 				Set your new password
@@ -19,7 +19,7 @@ function SetNewPass() {
 			<form action="" method="get">
 				<Input Title={"New password"} />
 
-                <input
+				<input
 					type="submit"
 					value="Set your new password"
 					style={{

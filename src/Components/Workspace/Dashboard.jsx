@@ -97,16 +97,16 @@ function Dashboard() {
 					}}
 				>
 					<TodoCard
-						Color1={"#DAFBC6"}
-						Color2={"#BBE89F"}
-						Title="Add your project"
-						Description="personal"
+						color1={"#DAFBC6"}
+						color2={"#BBE89F"}
+						title="Add your project"
+						description="personal"
 					/>
 					<TodoCard
-						Color1={"#A8F2F5"}
-						Color2={"#A2D3F0"}
-						Title="Add product structure"
-						Description="personal"
+						color1={"#A8F2F5"}
+						color2={"#A2D3F0"}
+						title="Add product structure"
+						description="personal"
 					/>
 					
 				</div>
@@ -129,10 +129,10 @@ function Dashboard() {
 					}}
 				>
 					<TodoCard
-						Color1={"#EFF0A8"}
-						Color2={"#DBE274"}
-						Title="Add task"
-						Description="Click to add a new task"
+						color1={"#EFF0A8"}
+						color2={"#DBE274"}
+						title="Add task"
+						description="Click to add a new task"
 					/>
 					
 				</div>

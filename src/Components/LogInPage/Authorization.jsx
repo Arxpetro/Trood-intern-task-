@@ -1,8 +1,8 @@
 // Authorization content for main block
 
 import React from "react";
-import Input from "./Input";
-import PasswordInput from "./PasswordInput";
+import Input from "../inputComponents/Input/Input";
+import PasswordInput from "../inputComponents/Password/PasswordInput";
 
 function Authorization() {
 	return (
@@ -20,7 +20,7 @@ function Authorization() {
 			</h1>
 			<form action="" method="get">
 				<div>
-					<Input Title={"Email"}/>
+					<Input title={"Email"} />
 				</div>
 				<div>
 					<PasswordInput />

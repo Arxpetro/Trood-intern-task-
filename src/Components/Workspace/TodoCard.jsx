@@ -5,7 +5,7 @@ import RightArrow from "../img/right_arrow.png";
 import Hand from "../img/hand.png";
 import Cross from "../img/cross.png";
 
-function TodoCard({ Color1, Color2, Title = "Title", Description = "about" }) {
+function TodoCard({ color1, color2, title = "Title", description = "about" }) {
 	return (
 		<div
 			style={{
@@ -15,7 +15,7 @@ function TodoCard({ Color1, Color2, Title = "Title", Description = "about" }) {
 				width: "520px",
 				height: "290px",
 				borderRadius: "12px",
-				background: `linear-gradient(0.25turn, ${Color1}, ${Color2})`,
+				background: `linear-gradient(0.25turn, ${color1}, ${color2})`,
 				padding: "24px",
 			}}
 		>
@@ -74,14 +74,14 @@ function TodoCard({ Color1, Color2, Title = "Title", Description = "about" }) {
                             marginBottom: "10px",
 						}}
 					>
-						{Title}
+						{title}
 					</h2>
                     <p style={{
                         fontSize: "18px",
                         fontWeight: "400",
                         color: "#808080",
                         
-                    }}>{Description}</p>
+                    }}>{description}</p>
 				</div>
                 <div style={{
                     position: "absolute",

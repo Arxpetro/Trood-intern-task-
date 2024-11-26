@@ -1,7 +1,9 @@
 // main registration/login block
 
 import React from "react";
-import MainLogo from "./img/mainlogo.png";
+
+import MainLogo from "../img/mainlogo.png";
+
 import Registration from "./Registration"
 import Authorization from "./Authorization";
 import ForgotPass from "./ForgotPass";

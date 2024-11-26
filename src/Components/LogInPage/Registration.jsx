@@ -1,6 +1,6 @@
 import React from "react";
-import Input from "./Input";
-import PasswordInput from "./PasswordInput";
+import Input from "../inputComponents/Input/Input";
+import PasswordInput from "../inputComponents/Password/PasswordInput";
 
 function Registration() {
 	return (
@@ -18,7 +18,7 @@ function Registration() {
 			</h1>
 			<form action="" method="get">
 				<div>
-					<Input Title={"Email"}/>
+					<Input Title={"Email"} />
 				</div>
 				<div>
 					<PasswordInput />
